@@ -126,14 +126,24 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
       Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
-    
         children: [
-          Text('Your Stories', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
+          Text('Your Pictures', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
           Text('FILTER', style: TextStyle( color: Colors.black26 )),
           _buildButton('all'),
           _buildButton('favorites'),
           _buildButton('love'),
-          _buildButton('vibes')
+          _buildButton('vibes'),
+
+          new Container(
+            height: 60,
+            width: 60,
+            margin: EdgeInsets.only(top: 100),
+            child: FloatingActionButton(
+              child: Icon(Icons.add, size: 50),
+              backgroundColor: Colors.purple,
+              onPressed: () {},
+            ),
+          )
         ],
       )
     );
