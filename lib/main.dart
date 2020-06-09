@@ -140,8 +140,14 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
   }
 
   _buildButton(tag) {
-    Color color = tag == activeTag ? Colors.redAccent: Colors.white;
-    return FlatButton(color: color, child: Text('# $tag', style: TextStyle(color: tag == activeTag ? Colors.white : Colors.black),), onPressed: () => _queryDb(tag: tag));
+    Color color = tag == activeTag ? Colors.purple : Colors.white;
+    return FlatButton(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.all(Radius.circular(10)) 
+      ),
+      color: color, 
+      child: Text('# $tag', style: TextStyle(color: tag == activeTag ? Colors.white : Colors.black),), 
+      onPressed: () => _queryDb(tag: tag));
   }
   
 }
