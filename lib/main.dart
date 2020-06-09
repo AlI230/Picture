@@ -146,7 +146,7 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
         borderRadius: BorderRadius.all(Radius.circular(10)) 
       ),
       color: color, 
-      child: Text('# $tag', style: TextStyle(color: tag == activeTag ? Colors.white : Colors.black),), 
+      child: Text('# $tag', textAlign: TextAlign.left ,style: TextStyle(color: tag == activeTag ? Colors.white : Colors.black),), 
       onPressed: () => _queryDb(tag: tag));
   }
   
