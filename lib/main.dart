@@ -1,3 +1,7 @@
+import 'dart:io';
+import 'package:image_picker/image_picker.dart';
+import 'package:path/path.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
@@ -142,13 +146,57 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
             child: FloatingActionButton(
               child: Icon(Icons.add, size: 50),
               backgroundColor: Colors.purple,
-              onPressed: () {},
+              onPressed: () {
+
+                upload();
+              },
             ),
           )
         ],
       )
     );
   }
+
+  FirebaseStorage _storage = FirebaseStorage.instance;
+  final databaseReference = Firestore.instance;
+
+  upload() async {
+   //pick image   use ImageSource.camera for accessing camera. 
+   File image = await ImagePicker.pickImage(source: ImageSource.gallery);
+
+   //basename() function will give you the filename
+   String fileName = basename(image.path);
+
+   //passing your path with the filename to Firebase Storage Reference
+   StorageReference reference = _storage.ref().child("images/$fileName");
+
+   //upload the file to Firebase Storage
+   StorageUploadTask uploadTask = reference.putFile(image);
+
+
+   //Snapshot of the uploading task
+   StorageTaskSnapshot taskSnapshot = await uploadTask.onComplete;
+
+   String url = await taskSnapshot.ref.getDownloadURL();
+
+   await databaseReference.collection("pictures")
+      .document()
+      .setData({
+        'img': url,
+        'tags': {
+          'all'
+        }
+      });
+
+  DocumentReference ref = await databaseReference.collection("pictures")
+      .add({
+        'img': url,
+        'tags': {
+          'all'
+        }
+      });
+  print(ref.documentID);
+}
 
   _buildButton(tag) {
     Color color = tag == activeTag ? Colors.purple : Colors.white;
