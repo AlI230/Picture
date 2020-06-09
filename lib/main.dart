@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(body: FirestoreSlideshow())
     );
   }
@@ -167,6 +168,8 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
    //basename() function will give you the filename
    String fileName = basename(image.path);
 
+   print(fileName);
+
    //passing your path with the filename to Firebase Storage Reference
    StorageReference reference = _storage.ref().child("images/$fileName");
 
@@ -177,7 +180,7 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
    //Snapshot of the uploading task
    StorageTaskSnapshot taskSnapshot = await uploadTask.onComplete;
 
-   String url = await taskSnapshot.ref.getDownloadURL();
+   String url =  databaseReference..getDownloadURL();
 
    await databaseReference.collection("pictures")
       .document()
