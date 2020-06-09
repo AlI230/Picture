@@ -104,6 +104,7 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
 
     return AnimatedContainer(
+      child: Text('$activeTag'),
       duration: Duration(milliseconds: 500),
       curve: Curves.easeOutQuint,
       margin: EdgeInsets.only(top: top, bottom: 50, right: 30),
