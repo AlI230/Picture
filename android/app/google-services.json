@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "591438011817",
+    "firebase_url": "https://picture-b4cab.firebaseio.com",
+    "project_id": "picture-b4cab",
+    "storage_bucket": "picture-b4cab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591438011817:android:e95338bfad617b9b30f8b8",
+        "android_client_info": {
+          "package_name": "com.example.Picture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591438011817-j8fp23qeb4ioandmmbbbuimqp246erh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsEhxYRQlC53m1we7CFXx4obdYQwceha8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591438011817-j8fp23qeb4ioandmmbbbuimqp246erh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
