@@ -37,6 +37,8 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
   // Keep track of current page to avoid unnecessary renders
   int currentPage = 0;
 
+  bool liked = false;
+
 
   @override
   void initState() {
@@ -108,21 +110,78 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
     final double top = active ? 100 : 200;
 
 
-    return AnimatedContainer(
-      duration: Duration(milliseconds: 500),
-      curve: Curves.easeOutQuint,
-      margin: EdgeInsets.only(top: top, bottom: 50, right: 30),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
+    return Center(
+        child: AnimatedContainer(
+            duration: Duration(milliseconds: 500),
+            curve: Curves.easeOutQuint,
+            margin: EdgeInsets.only(top: top, bottom: 50, right: 30),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
 
-        image: DecorationImage(
-            fit: BoxFit.cover,
-            image: NetworkImage(data['img']),
-        ),
+              image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: NetworkImage(data['img']),
+              ),
 
-        boxShadow: [BoxShadow(color: Colors.black87, blurRadius: blur, offset: Offset(offset, offset))]
-      ),
-    );
+              boxShadow: [BoxShadow(color: Colors.black87, blurRadius: blur, offset: Offset(offset, offset))]
+            ),
+
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+  mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Container(
+                      margin: EdgeInsets.only(left: 20, bottom: 50),
+                      alignment: Alignment.bottomLeft,
+                      child: RaisedButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(10)) 
+                        ),
+                        color: Colors.purple,
+                        child: Text('# love', style: TextStyle(color: Colors.white),),
+                        onPressed: () {
+                          var id = data['id'];
+                            Firestore.instance.collection('pictures').document(id).updateData({'tags': FieldValue.arrayUnion(['love'])});
+                        }
+                      ),
+                    ),
+                    Container(
+                        margin: EdgeInsets.only(bottom: 50),
+                        alignment: Alignment.bottomCenter,
+                        child: FloatingActionButton(
+                          child: Icon(liked ? Icons.favorite : Icons.favorite_border),
+                          backgroundColor: Colors.purple,
+                          onPressed: () {
+                            var id = data['id'];
+                            Firestore.instance.collection('pictures').document(id).updateData({'tags': FieldValue.arrayUnion(['favorites'])});
+                          },
+                        ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only( bottom: 50, right:20),
+                      alignment: Alignment.bottomLeft,
+                      child: RaisedButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(10)) 
+                        ),
+                        color: Colors.purple,
+                        child: Text('# vibes', style: TextStyle(color: Colors.white),),
+                        onPressed: () {
+                          var id = data['id'];
+                            Firestore.instance.collection('pictures').document(id).updateData({'tags': FieldValue.arrayUnion(['vibes'])});
+                        }
+                      ),
+                    ),
+                  ],
+                )
+                
+              ]
+            )
+        )
+      );
   }
 
 
@@ -133,7 +192,7 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text('Your Pictures', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
-          Text('FILTER', style: TextStyle( color: Colors.black26 )),
+          Text('FILTER', style: TextStyle( color: Colors.black26)),
           _buildButton('all'),
           _buildButton('favorites'),
           _buildButton('love'),
@@ -147,7 +206,6 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
               child: Icon(Icons.add, size: 50),
               backgroundColor: Colors.purple,
               onPressed: () {
-
                 upload();
               },
             ),
@@ -180,15 +238,17 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
   String url = await reference.getDownloadURL();
 
 
-  DocumentReference ref = await databaseReference.collection("pictures")
-    .add({
+  DocumentReference ref = await databaseReference.collection("pictures").document();
+
+    ref.setData({
       'img': url,
-      'tags': ["all"]
+      'tags': ["all"],
+      'id': ref.documentID 
     });
   }
 
   _buildButton(tag) {
-    Color color = tag == activeTag ? Colors.purple : Colors.white;
+    Color color = tag == activeTag ? Colors.purple : Colors.transparent;
     return FlatButton(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.all(Radius.circular(10)) 

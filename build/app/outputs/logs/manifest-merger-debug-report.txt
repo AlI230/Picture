@@ -91,7 +91,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\calle\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\3a30518055c3cf95d79277f2200fde4b\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\calle\Desktop\Picture\android\app\src\main\AndroidManifest.xml:17:9-37
+		ADDED from C:\Users\calle\Desktop\Picture\android\app\src\main\AndroidManifest.xml:17:9-32
 	android:icon
 		ADDED from C:\Users\calle\Desktop\Picture\android\app\src\main\AndroidManifest.xml:18:9-43
 	android:name
