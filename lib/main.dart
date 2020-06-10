@@ -109,7 +109,6 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
 
     return AnimatedContainer(
-      child: Text('$activeTag'),
       duration: Duration(milliseconds: 500),
       curve: Curves.easeOutQuint,
       margin: EdgeInsets.only(top: top, bottom: 50, right: 30),
@@ -163,43 +162,30 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
   upload() async {
    //pick image   use ImageSource.camera for accessing camera. 
-   File image = await ImagePicker.pickImage(source: ImageSource.gallery);
+  File image = await ImagePicker.pickImage(source: ImageSource.gallery);
 
    //basename() function will give you the filename
-   String fileName = basename(image.path);
-
-   print(fileName);
+  String fileName = basename(image.path);
 
    //passing your path with the filename to Firebase Storage Reference
-   StorageReference reference = _storage.ref().child("images/$fileName");
+  StorageReference reference = _storage.ref().child("images/$fileName");
 
    //upload the file to Firebase Storage
-   StorageUploadTask uploadTask = reference.putFile(image);
+  StorageUploadTask uploadTask = reference.putFile(image);
 
 
    //Snapshot of the uploading task
-   StorageTaskSnapshot taskSnapshot = await uploadTask.onComplete;
+  StorageTaskSnapshot taskSnapshot = await uploadTask.onComplete;
+// no need of the file extension, the name will do fine.
+  String url = await reference.getDownloadURL();
 
-   String url =  databaseReference..getDownloadURL();
-
-   await databaseReference.collection("pictures")
-      .document()
-      .setData({
-        'img': url,
-        'tags': {
-          'all'
-        }
-      });
 
   DocumentReference ref = await databaseReference.collection("pictures")
-      .add({
-        'img': url,
-        'tags': {
-          'all'
-        }
-      });
-  print(ref.documentID);
-}
+    .add({
+      'img': url,
+      'tags': ["all"]
+    });
+  }
 
   _buildButton(tag) {
     Color color = tag == activeTag ? Colors.purple : Colors.white;

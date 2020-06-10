@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\calle\\Desktop\\flutter\\Picture_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
+            "outputFile": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
             "map": [
                 {
                     "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\values-ml\\values.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\2f351f2559a641555c15b54be23fb57b\\res\\values-ml\\values.xml",
+                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\7abe3f0ff1e29e973a49c36beae40d04\\res\\values-ml\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

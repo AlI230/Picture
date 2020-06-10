@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\calle\\Desktop\\flutter\\Picture_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\2f351f2559a641555c15b54be23fb57b\\res\\values-fr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "223",
-                        "endOffsets": "470"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1326",
-                        "endColumns": "223",
-                        "endOffsets": "1545"
-                    }
-                },
                 {
                     "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\values-fr\\values.xml",
                     "from": {
@@ -35,6 +18,23 @@
                         "startOffsets": "105,213,425,557,668,898,1033,1184,1550,1787,1901,2117,2255,2474,2683,2786,2883",
                         "endColumns": "107,211,131,110,229,134,150,141,236,113,215,137,218,208,102,96,112",
                         "endOffsets": "208,420,552,663,893,1028,1179,1321,1782,1896,2112,2250,2469,2678,2781,2878,2991"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\7abe3f0ff1e29e973a49c36beae40d04\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "223",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1326",
+                        "endColumns": "223",
+                        "endOffsets": "1545"
                     }
                 },
                 {
