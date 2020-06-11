@@ -1,0 +1,64 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --quiet assemble --depfile C:\Users\calle\Desktop\Picture\build\app\intermediates\flutter\debug/flutter_build.d --output C:\Users\calle\Desktop\Picture\build\app\intermediates\flutter\debug -dTargetFile=C:\Users\calle\Desktop\Picture\lib\main.dart -dTargetPlatform=android -dBuildMode=debug debug_android_application
+
+## exception
+
+OutOfMemoryError: Out of Memory
+
+```
+#0      new Uint8List (dart:typed_data-patch/typed_data_patch.dart:2188:66)
+#1      new Uint8List.fromList (dart:typed_data-patch/typed_data_patch.dart:2192:16)
+#2      ForwardingFile.readAsBytes.<anonymous closure> (package:file/src/forwarding/forwarding_file.dart:90:24)
+#3      _rootRunUnary (dart:async/zone.dart:1192:38)
+#4      _CustomZone.runUnary (dart:async/zone.dart:1085:19)
+#5      _FutureListener.handleValue (dart:async/future_impl.dart:141:18)
+#6      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:682:45)
+#7      Future._propagateToListeners (dart:async/future_impl.dart:711:32)
+#8      Future._completeWithValue (dart:async/future_impl.dart:526:5)
+#9      Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:556:7)
+#10     _rootRun (dart:async/zone.dart:1184:13)
+#11     _CustomZone.run (dart:async/zone.dart:1077:19)
+#12     _CustomZone.runGuarded (dart:async/zone.dart:979:7)
+#13     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1019:23)
+#14     _microtaskLoop (dart:async/schedule_microtask.dart:43:21)
+#15     _startMicrotaskLoop (dart:async/schedule_microtask.dart:52:5)
+#16     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#17     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:169:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, v1.17.1, on Microsoft Windows [Version 10.0.18363.836], locale nl-BE)
+    • Flutter version 1.17.1 at C:\flutter
+    • Framework revision f7a6a7906b (4 weeks ago), 2020-05-12 18:39:00 -0700
+    • Engine revision 6bc433c6b6
+    • Dart version 2.8.2
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
+    • Android SDK at C:\Android
+    • Platform android-29, build-tools 29.0.3
+    • ANDROID_HOME = C:\Android
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+    • All Android licenses accepted.
+
+[!] Android Studio (version 3.6)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    ✗ Unable to determine bundled Java version.
+    • Try updating or re-installing Android Studio.
+
+[✓] VS Code (version 1.46.0)
+    • VS Code at C:\Users\calle\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.11.0
+
+[✓] Connected device (1 available)
+    • SM A705FN • R58M44Z812F • android-arm64 • Android 10 (API 29)
+
+! Doctor found issues in 1 category.
+```
