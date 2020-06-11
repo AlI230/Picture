@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'package:Picture/root_page.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart';
@@ -12,12 +11,11 @@ import 'authentication.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
 
     return new MaterialApp(
-        title: 'Picture',
+        title: 'TAGgallery',
         debugShowCheckedModeBanner: false,
         theme: new ThemeData(
           primarySwatch: Colors.purple,

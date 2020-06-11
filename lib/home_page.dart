@@ -135,7 +135,7 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Container(
-                      margin: EdgeInsets.only(left: 20, bottom: 50),
+                      margin: EdgeInsets.only(left: 20, bottom: 10),
                       alignment: Alignment.bottomLeft,
                       child: RaisedButton(
                         shape: RoundedRectangleBorder(
@@ -150,7 +150,7 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
                       ),
                     ),
                     Container(
-                        margin: EdgeInsets.only(bottom: 50),
+                        margin: EdgeInsets.only(bottom: 10),
                         alignment: Alignment.bottomCenter,
                         child: FloatingActionButton(
                           child: Icon(liked ? Icons.favorite : Icons.favorite_border),
@@ -162,7 +162,7 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
                         ),
                     ),
                     Container(
-                      margin: EdgeInsets.only( bottom: 50, right:20),
+                      margin: EdgeInsets.only( bottom: 10, right:20),
                       alignment: Alignment.bottomLeft,
                       child: RaisedButton(
                         shape: RoundedRectangleBorder(
@@ -177,8 +177,33 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
                       ),
                     ),
                   ],
-                )
-                
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 20, right: 20, bottom: 10),
+                  child: new SizedBox(
+                    width: 260,
+                    child: RaisedButton(
+                      elevation: 5.0,
+                      shape: new RoundedRectangleBorder(
+                          borderRadius: new BorderRadius.circular(10.0)),
+                      color: Colors.redAccent,
+                      child: new Text('Delete',
+                          style: new TextStyle( color: Colors.white)),
+                      onPressed: () {
+                        var id = data['id'];
+                        Firestore.instance.collection('pictures').document(id).delete();
+
+                         FirebaseStorage.instance
+                            .getReferenceFromUrl(data["img"])
+                            .then((res) {
+                          res.delete().then((res) {
+                            print("Deleted!");
+                          });
+                        });
+                      },
+                    ),
+                  ),
+                ),
               ]
             )
         )
