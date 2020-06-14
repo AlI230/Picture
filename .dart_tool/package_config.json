@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "admob_flutter",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/admob_flutter-0.3.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "archive",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.13",
       "packageUri": "lib/",
@@ -78,6 +84,12 @@
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-7.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.7"
+    },
+    {
+      "name": "firebase_admob",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.9.3+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "firebase_auth",
@@ -200,6 +212,12 @@
       "languageVersion": "2.4"
     },
     {
+      "name": "platform",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.24"
+    },
+    {
       "name": "plugin_platform_interface",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
       "packageUri": "lib/",
@@ -278,7 +296,7 @@
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2020-06-11T14:20:14.392632Z",
+  "generated": "2020-06-12T08:53:27.588271Z",
   "generator": "pub",
   "generatorVersion": "2.8.2"
 }

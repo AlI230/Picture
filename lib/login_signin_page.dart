@@ -1,7 +1,8 @@
+import 'package:Picture/services/admob_service.dart';
+import 'package:admob_flutter/admob_flutter.dart';
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-
-import 'authentication.dart';
+import 'package:Picture/services/authentication.dart';
 
 class LoginSigninPage extends StatefulWidget {
   LoginSigninPage({this.auth, this.loginCallback});
@@ -18,12 +19,50 @@ class _LoginSigninPageState extends State<LoginSigninPage>{
 
   final _formKey = new GlobalKey<FormState>();
 
+  final ams = AdMobService();
+
   bool _isLoginForm;
   bool _isLoading;
 
   String _email;
   String _password;
   String _errorMessage;
+
+  BannerAd myBanner;
+
+  BannerAd buildLargeBannerAd() {
+    return BannerAd(
+        adUnitId: AdMobService().getBannerId(),
+        size: AdSize.fullBanner,
+        listener: (MobileAdEvent event) {
+          if (event == MobileAdEvent.loaded) {
+            myBanner
+              ..show(
+                  anchorType: AnchorType.bottom,
+                  anchorOffset: MediaQuery.of(context).size.height * 0.15);
+          }
+        });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+
+    _errorMessage = "";
+    _isLoading = false;
+    _isLoginForm = true;
+
+    Admob.initialize(AdMobService().getAdmobId());
+    FirebaseAdMob.instance.initialize(appId: AdMobService().getAdmobId());
+    myBanner = buildLargeBannerAd()..load();
+    //myBanner = buildLargeBannerAd()..load();
+  }
+
+  @override
+  void dispose() {
+    myBanner.dispose();
+    super.dispose();
+  }
 
   bool validateAndSave() {
     final form = _formKey.currentState;
@@ -69,16 +108,40 @@ class _LoginSigninPageState extends State<LoginSigninPage>{
     }
   }
 
+  void toggleFormMode() {
+    resetForm();
+    setState(() {
+      _isLoginForm = !_isLoginForm;
+    });
+  }
+
+  void resetForm() {
+    _formKey.currentState.reset();
+    _errorMessage = "";
+  }
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      body: Stack(
-          children: <Widget>[
-            showForm(),
-            showCircularProgress(),
-          ],
+      body: SafeArea(
+              child: Stack(
+            children: <Widget>[
+              showForm(),
+              showCircularProgress(),
+              showAd()
+            ],
+        ),
       )
+    );
+  }
+
+  Widget showAd() {
+    return Container(
+      color: Colors.black,
+      child: AdmobBanner(
+        adUnitId: AdMobService().getBannerId(),
+        adSize: AdmobBannerSize.FULL_BANNER,
+      ),
     );
   }
 
@@ -164,25 +227,6 @@ Widget showForm() {
             onPressed: validateAndSubmit,
           ),
         ));
-  }
-
-  void initState() {
-    _errorMessage = "";
-    _isLoading = false;
-    _isLoginForm = true;
-    super.initState();
-  }
-
-  void toggleFormMode() {
-    resetForm();
-    setState(() {
-      _isLoginForm = !_isLoginForm;
-    });
-  }
-
-  void resetForm() {
-    _formKey.currentState.reset();
-    _errorMessage = "";
   }
 
   Widget showSecondaryButton() {

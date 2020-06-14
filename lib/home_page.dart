@@ -1,13 +1,14 @@
 import 'dart:io';
-import 'package:Picture/root_page.dart';
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
-
-import 'authentication.dart';
+import 'package:admob_flutter/admob_flutter.dart';
+import 'package:Picture/services/authentication.dart';
+import 'package:Picture/services/admob_service.dart';
 
 class FirestoreSlideshow extends StatefulWidget {
   FirestoreSlideshow({Key key, this.auth, this.userId, this.logoutCallback})
@@ -24,13 +25,13 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
+  final ams = AdMobService();
 
   final PageController ctrl = PageController(viewportFraction: 0.8);
 
   final Firestore db = Firestore.instance;
   Stream slides;
 
-  
   String activeTag = 'favorites';
 
   // Keep track of current page to avoid unnecessary renders
@@ -38,9 +39,10 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
   bool liked = false;
 
-
   @override
   void initState() {
+    Admob.initialize(ams.getAdmobId());
+    FirebaseAdMob.instance.initialize(appId: ams.getAdmobId());
     _queryDb();
     
     // Set state when page changes
@@ -59,29 +61,31 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
   Widget build(BuildContext context) { 
 
       return new Scaffold(
-        body: StreamBuilder(
-          stream: slides,
-          initialData: [],
-          builder: (context, AsyncSnapshot snap) { 
+        body: 
+            
+            StreamBuilder(
+              stream: slides,
+              initialData: [],
+              builder: (context, AsyncSnapshot snap) { 
 
-            List slideList = snap.data.toList();
+                List slideList = snap.data.toList();
 
-            return PageView.builder(
-              controller: ctrl,
-              itemCount: slideList.length + 1,
-              itemBuilder: (context, int currentIdx) {
-              
+                return PageView.builder(
+                  controller: ctrl,
+                  itemCount: slideList.length + 1,
+                  itemBuilder: (context, int currentIdx) {
+                  
 
-              if (currentIdx == 0) {
-                return _buildTagPage();
-              } else if (slideList.length >= currentIdx) {
-                // Active page
-                bool active = currentIdx == currentPage;
-                return _buildStoryPage(slideList[currentIdx - 1], active);
-              }
+                  if (currentIdx == 0) {
+                    return _buildTagPage();
+                  } else if (slideList.length >= currentIdx) {
+                    // Active page
+                    bool active = currentIdx == currentPage;
+                    return _buildStoryPage(slideList[currentIdx - 1], active);
+                  }
+                }
+              );
             }
-          );
-        }
     ),
       );
   }
@@ -213,43 +217,52 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
   _buildTagPage() {
     return Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text('Your Pictures', style: TextStyle(fontSize: 32, color: Colors.black, fontWeight: FontWeight.bold),),
-          Text('FILTER', style: TextStyle(fontSize: 16 , color: Colors.black26)),
-          _buildButton('all'),
-          _buildButton('favorites'),
-          _buildButton('love'),
-          _buildButton('vibes'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Your Pictures', style: TextStyle(fontSize: 32, color: Colors.black, fontWeight: FontWeight.bold),),
+              Text('FILTER', style: TextStyle(fontSize: 16 , color: Colors.black26)),
+              _buildButton('all'),
+              _buildButton('favorites'),
+              _buildButton('love'),
+              _buildButton('vibes'),
 
-          new Container(
-            height: 60,
-            width: 60,
-            margin: EdgeInsets.only(top: 100),
-            child: FloatingActionButton(
-              child: Icon(Icons.add, size: 50),
-              backgroundColor: Colors.purple,
-              onPressed: () {
-                upload();
-              },
-            ),
-          ),
-          new Container(
-            margin: EdgeInsets.only(top: 30),
-            child: FlatButton(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.all(Radius.circular(10)) 
+              new Container(
+                height: 60,
+                width: 60,
+                margin: EdgeInsets.only(top: 100),
+                child: FloatingActionButton(
+                  child: Icon(Icons.add, size: 50),
+                  backgroundColor: Colors.purple,
+                  onPressed: () {
+                    upload();
+                  },
+                ),
               ),
-              color: Colors.purple,
-              child: new Text('Logout',
-                  style: new TextStyle(fontSize: 17.0, color: Colors.white)),
-              onPressed: signOut
-            ),
+              new Container(
+                margin: EdgeInsets.only(top: 30),
+                child: FlatButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(10)) 
+                  ),
+                  color: Colors.purple,
+                  child: new Text('Logout',
+                      style: new TextStyle(fontSize: 17.0, color: Colors.white)),
+                  onPressed: signOut
+                ),
+              ),
+              new Container(
+                margin: EdgeInsets.only(top: 20),
+                color: Colors.black,
+                child: AdmobBanner(
+                  adUnitId: AdMobService().getBannerId(),
+                  adSize: AdmobBannerSize.BANNER,
+                ),
+              ),
+            ],
           )
-        ],
-      )
+        
     );
   }
 

@@ -4,10 +4,22 @@
 
 #import "GeneratedPluginRegistrant.h"
 
+#if __has_include(<admob_flutter/AdmobFlutterPlugin.h>)
+#import <admob_flutter/AdmobFlutterPlugin.h>
+#else
+@import admob_flutter;
+#endif
+
 #if __has_include(<cloud_firestore/FLTCloudFirestorePlugin.h>)
 #import <cloud_firestore/FLTCloudFirestorePlugin.h>
 #else
 @import cloud_firestore;
+#endif
+
+#if __has_include(<firebase_admob/FLTFirebaseAdMobPlugin.h>)
+#import <firebase_admob/FLTFirebaseAdMobPlugin.h>
+#else
+@import firebase_admob;
 #endif
 
 #if __has_include(<firebase_auth/FirebaseAuthPlugin.h>)
@@ -37,7 +49,9 @@
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
+  [AdmobFlutterPlugin registerWithRegistrar:[registry registrarForPlugin:@"AdmobFlutterPlugin"]];
   [FLTCloudFirestorePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTCloudFirestorePlugin"]];
+  [FLTFirebaseAdMobPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseAdMobPlugin"]];
   [FLTFirebaseAuthPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseAuthPlugin"]];
   [FLTFirebaseCorePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseCorePlugin"]];
   [FLTFirebaseStoragePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseStoragePlugin"]];
