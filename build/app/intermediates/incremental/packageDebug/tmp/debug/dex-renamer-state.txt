@@ -1,4 +1,4 @@
-#Fri Jun 12 12:41:22 CEST 2020
+#Wed Jun 17 16:10:17 CEST 2020
 base.2=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\1
 base.1=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 base.0=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\3

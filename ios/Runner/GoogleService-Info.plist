@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>591438011817-6pm3dqkunc2ci07ql9ralhn0ltb8j931.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.591438011817-6pm3dqkunc2ci07ql9ralhn0ltb8j931</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4aGv_XVGXiQ-tW0A2bpEH46mnFQs1Uxo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>591438011817</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.Picture</string>
+	<key>PROJECT_ID</key>
+	<string>picture-b4cab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>picture-b4cab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:591438011817:ios:5eb08f4eab092ce230f8b8</string>
+	<key>DATABASE_URL</key>
+	<string>https://picture-b4cab.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-6230550676129113~5980060850</string>
+</dict>
+</plist>

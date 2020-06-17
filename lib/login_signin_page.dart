@@ -1,5 +1,4 @@
 import 'package:Picture/services/admob_service.dart';
-import 'package:admob_flutter/admob_flutter.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:Picture/services/authentication.dart';
@@ -28,33 +27,33 @@ class _LoginSigninPageState extends State<LoginSigninPage>{
   String _password;
   String _errorMessage;
 
-  BannerAd myBanner;
+  static MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    keywords: <String>['flutterio', 'beautiful apps'],
+    contentUrl: 'https://flutter.io',
+    childDirected: false,
+    testDevices: <String>['5C9B053159F4C8740222F6D4F746CA9E'], // Android emulators are considered test devices
+  );
 
-  BannerAd buildLargeBannerAd() {
-    return BannerAd(
-        adUnitId: AdMobService().getBannerId(),
-        size: AdSize.fullBanner,
-        listener: (MobileAdEvent event) {
-          if (event == MobileAdEvent.loaded) {
-            myBanner
-              ..show(
-                  anchorType: AnchorType.bottom,
-                  anchorOffset: MediaQuery.of(context).size.height * 0.15);
-          }
-        });
-  }
+  BannerAd myBanner = BannerAd(
+    adUnitId: 'ca-app-pub-6230550676129113/3367174103',
+    size: AdSize.banner,
+    targetingInfo: targetingInfo,
+    listener: (MobileAdEvent event) {
+      print("BannerAd event is $event");
+    },
+  );
 
   @override
   void initState() {
     super.initState();
+    FirebaseAdMob.instance.initialize(appId: ams.getAdmobId());
+    myBanner..load()..show();
 
     _errorMessage = "";
     _isLoading = false;
     _isLoginForm = true;
 
-    Admob.initialize(AdMobService().getAdmobId());
-    FirebaseAdMob.instance.initialize(appId: AdMobService().getAdmobId());
-    myBanner = buildLargeBannerAd()..load();
+
     //myBanner = buildLargeBannerAd()..load();
   }
 
@@ -128,20 +127,9 @@ class _LoginSigninPageState extends State<LoginSigninPage>{
             children: <Widget>[
               showForm(),
               showCircularProgress(),
-              showAd()
             ],
         ),
       )
-    );
-  }
-
-  Widget showAd() {
-    return Container(
-      color: Colors.black,
-      child: AdmobBanner(
-        adUnitId: AdMobService().getBannerId(),
-        adSize: AdmobBannerSize.FULL_BANNER,
-      ),
     );
   }
 

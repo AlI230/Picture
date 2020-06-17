@@ -252,6 +252,10 @@
         "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_browser_actions_context_menu_row.xml.flat",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\browser-1.0.0.aar\\3d498e5d14e854d2958c895e89dc181a\\res\\layout\\browser_actions_context_menu_row.xml"
+    },
+    {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\calle\\Desktop\\Picture\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -306,5 +310,9 @@
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_browser_actions_context_menu_page.xml.flat",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\browser-1.0.0.aar\\3d498e5d14e854d2958c895e89dc181a\\res\\layout\\browser_actions_context_menu_page.xml"
     }
 ]

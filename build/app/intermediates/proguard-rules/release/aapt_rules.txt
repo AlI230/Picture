@@ -1,14 +1,31 @@
-# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:33
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:39
 -keep class com.example.flutterbase.MainActivity { <init>(...); }
-# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:109
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:131
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:137
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(...); }
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:166
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
-# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:95
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:112
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:126
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(...); }
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:107
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:122
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:143
 -keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(...); }
-# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:58
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:64
 -keep class com.google.firebase.components.ComponentDiscoveryService { <init>(...); }
-# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:103
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:151
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:160
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
-# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:28
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:30
 -keep class io.flutter.app.FlutterApplication { <init>(...); }
-# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:85
+# Referenced at C:\Users\calle\Desktop\Picture\build\app\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:97
 -keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(...); }
+# Referenced at C:\Users\calle\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\3d498e5d14e854d2958c895e89dc181a\res\layout\browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+

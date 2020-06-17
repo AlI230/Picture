@@ -6,7 +6,6 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
-import 'package:admob_flutter/admob_flutter.dart';
 import 'package:Picture/services/authentication.dart';
 import 'package:Picture/services/admob_service.dart';
 
@@ -39,10 +38,31 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
   bool liked = false;
 
+ static MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+  keywords: <String>['flutterio', 'beautiful apps'],
+  contentUrl: 'https://flutter.io',
+  childDirected: false,
+  testDevices: <String>['5C9B053159F4C8740222F6D4F746CA9E'], // Android emulators are considered test devices
+);
+
+BannerAd myBanner = BannerAd(
+  adUnitId: AdMobService().getBannerId(),
+  size: AdSize.banner,
+  targetingInfo: targetingInfo,
+  listener: (MobileAdEvent event) {
+    print("BannerAd event is $event");
+  },
+);
+
   @override
   void initState() {
-    Admob.initialize(ams.getAdmobId());
+    super.initState();
     FirebaseAdMob.instance.initialize(appId: ams.getAdmobId());
+    myBanner..load()..show(
+      anchorType: AnchorType.top,
+      anchorOffset: 40.0,
+    );
+
     _queryDb();
     
     // Set state when page changes
@@ -58,35 +78,41 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
   }
 
   @override
-  Widget build(BuildContext context) { 
+  void dispose() {
+    myBanner.dispose();
+    super.dispose();
+  }
 
-      return new Scaffold(
-        body: 
-            
-            StreamBuilder(
-              stream: slides,
-              initialData: [],
-              builder: (context, AsyncSnapshot snap) { 
+  @override
+  Widget build(BuildContext context) {   
+    return new SafeArea(
+        child:  Scaffold(
+          
+          body: StreamBuilder(
+                stream: slides,
+                initialData: [],
+                builder: (context, AsyncSnapshot snap) { 
 
-                List slideList = snap.data.toList();
+                  List slideList = snap.data.toList();
 
-                return PageView.builder(
-                  controller: ctrl,
-                  itemCount: slideList.length + 1,
-                  itemBuilder: (context, int currentIdx) {
-                  
+                  return PageView.builder(
+                    controller: ctrl,
+                    itemCount: slideList.length + 1,
+                    itemBuilder: (context, int currentIdx) {
+                    
 
-                  if (currentIdx == 0) {
-                    return _buildTagPage();
-                  } else if (slideList.length >= currentIdx) {
-                    // Active page
-                    bool active = currentIdx == currentPage;
-                    return _buildStoryPage(slideList[currentIdx - 1], active);
+                    if (currentIdx == 0) {
+                      return _buildTagPage();
+                    } else if (slideList.length >= currentIdx) {
+                      // Active page
+                      bool active = currentIdx == currentPage;
+                      return _buildStoryPage(slideList[currentIdx - 1], active);
+                    }
                   }
-                }
-              );
-            }
+                );
+              }
     ),
+        ),
       );
   }
 
@@ -250,14 +276,6 @@ class FirestoreSlideshowState extends State<FirestoreSlideshow> {
                   child: new Text('Logout',
                       style: new TextStyle(fontSize: 17.0, color: Colors.white)),
                   onPressed: signOut
-                ),
-              ),
-              new Container(
-                margin: EdgeInsets.only(top: 20),
-                color: Colors.black,
-                child: AdmobBanner(
-                  adUnitId: AdMobService().getBannerId(),
-                  adSize: AdmobBannerSize.BANNER,
                 ),
               ),
             ],

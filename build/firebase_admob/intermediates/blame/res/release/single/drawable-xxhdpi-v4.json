@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\firebase_admob\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\firebase_admob\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\firebase_admob\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\firebase_admob\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\firebase_admob\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\firebase_admob\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    }
+]
