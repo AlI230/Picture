@@ -1,19 +1,19 @@
 [
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-v21\\notification_action_background.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -21,35 +21,35 @@
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_launch_background.xml.flat",
@@ -57,51 +57,51 @@
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_action.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable\\notification_bg.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
@@ -109,31 +109,31 @@
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -141,107 +141,107 @@
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_bg_low.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable\\notification_bg_low.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable\\notification_tile_bg.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_tint.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\xml_flutter_image_picker_file_paths.xml.flat",
@@ -249,11 +249,11 @@
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_browser_actions_context_menu_row.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\browser-1.0.0.aar\\3d498e5d14e854d2958c895e89dc181a\\res\\layout\\browser_actions_context_menu_row.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\browser-1.0.0.aar\\583b19da0feb705080ea8db5eab5b2e2\\res\\layout\\browser_actions_context_menu_row.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
@@ -261,11 +261,11 @@
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable\\notification_icon_background.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -273,46 +273,46 @@
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\fb1ee53bc67eacf12c8158d871182e96\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bc45fbb7a13ec78735dccbff08e88fa6\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_custom_dialog.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout\\custom_dialog.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\layout\\custom_dialog.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\layout\\notification_template_part_time.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\res\\merged\\release\\layout_browser_actions_context_menu_page.xml.flat",
-        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\browser-1.0.0.aar\\3d498e5d14e854d2958c895e89dc181a\\res\\layout\\browser_actions_context_menu_page.xml"
+        "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\browser-1.0.0.aar\\583b19da0feb705080ea8db5eab5b2e2\\res\\layout\\browser_actions_context_menu_page.xml"
     }
 ]

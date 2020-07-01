@@ -35,7 +35,7 @@ class _LoginSigninPageState extends State<LoginSigninPage>{
   );
 
   BannerAd myBanner = BannerAd(
-    adUnitId: 'ca-app-pub-6230550676129113/3367174103',
+    adUnitId: AdMobService().getBannerId(),
     size: AdSize.banner,
     targetingInfo: targetingInfo,
     listener: (MobileAdEvent event) {

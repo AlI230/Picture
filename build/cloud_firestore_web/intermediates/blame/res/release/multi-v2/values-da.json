@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\calle\\Desktop\\Picture\\build\\cloud_firestore_web\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-da\\values-da.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\df4fb35b2e164f6c2894a0cbb4a7114e\\res\\values-da\\values.xml",
+                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\8d969e7bb23a7aa02b1b48e195d3ab9d\\res\\values-da\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\values-da\\values-da.xml",
+                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -43,7 +43,7 @@
             "outputFile": "C:\\Users\\calle\\Desktop\\Picture\\build\\cloud_firestore_web\\intermediates\\res\\merged\\release\\values-da\\values-da.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\df4fb35b2e164f6c2894a0cbb4a7114e\\res\\values-da\\values.xml",
+                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\8d969e7bb23a7aa02b1b48e195d3ab9d\\res\\values-da\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -60,7 +60,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3a30518055c3cf95d79277f2200fde4b\\res\\values-da\\values-da.xml",
+                    "source": "C:\\Users\\calle\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\935aabebbfb40b4624012bbd2effda6f\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

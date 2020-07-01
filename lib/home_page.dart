@@ -23,26 +23,20 @@ class FirestoreSlideshow extends StatefulWidget {
 class FirestoreSlideshowState extends State<FirestoreSlideshow> {
 
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
-
   final ams = AdMobService();
-
   final PageController ctrl = PageController(viewportFraction: 0.8);
-
   final Firestore db = Firestore.instance;
+
   Stream slides;
-
   String activeTag = 'favorites';
-
-  // Keep track of current page to avoid unnecessary renders
   int currentPage = 0;
-
   bool liked = false;
 
  static MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
   keywords: <String>['flutterio', 'beautiful apps'],
   contentUrl: 'https://flutter.io',
   childDirected: false,
-  testDevices: <String>['5C9B053159F4C8740222F6D4F746CA9E'], // Android emulators are considered test devices
+  testDevices: <String>['5C9B053159F4C8740222F6D4F746CA9E'],
 );
 
 BannerAd myBanner = BannerAd(
@@ -65,7 +59,6 @@ BannerAd myBanner = BannerAd(
 
     _queryDb();
     
-    // Set state when page changes
     ctrl.addListener(() { 
       int next = ctrl.page.round();
 
@@ -87,7 +80,6 @@ BannerAd myBanner = BannerAd(
   Widget build(BuildContext context) {   
     return new SafeArea(
         child:  Scaffold(
-          
           body: StreamBuilder(
                 stream: slides,
                 initialData: [],

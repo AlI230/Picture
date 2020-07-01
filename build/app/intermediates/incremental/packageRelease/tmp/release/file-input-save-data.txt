@@ -1,20 +1,20 @@
 #Internal package file, do not edit.
-#Thu Jun 11 16:39:14 CEST 2020
+#Wed Jun 17 22:42:04 CEST 2020
 4.path=flutter_assets/FontManifest.json
-8.set=DEX
+8.set=ASSET
 6.path=lib/x86_64/libflutter.so
 0.baseType=DIRECTORY
 10.path=flutter_assets/AssetManifest.json
 5.baseType=DIRECTORY
 1.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
-8.path=classes.dex
+8.path=flutter_assets/fonts/MaterialIcons-Regular.ttf
 12.path=lib/armeabi-v7a/libapp.so
 3.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
 4.set=ASSET
 5.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\mergeJniLibs\\release\\0
 7.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\mergeJniLibs\\release\\0
 11.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
-9.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+9.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\r8\\release\\0
 1.baseType=DIRECTORY
 11.set=ASSET
 0.set=NATIVE_RESOURCE
@@ -31,7 +31,7 @@
 0.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\mergeJniLibs\\release\\0
 7.path=lib/x86_64/libapp.so
 11.path=flutter_assets/assets/space.jpeg
-9.path=flutter_assets/fonts/MaterialIcons-Regular.ttf
+9.path=classes.dex
 6.set=NATIVE_RESOURCE
 2.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\mergeJniLibs\\release\\0
 11.baseType=DIRECTORY
@@ -39,11 +39,11 @@
 3.baseType=DIRECTORY
 6.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\mergeJniLibs\\release\\0
 10.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
-8.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\r8\\release\\1
+8.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
 2.set=NATIVE_RESOURCE
 8.baseType=DIRECTORY
 12.base=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\mergeJniLibs\\release\\0
-9.set=ASSET
+9.set=DEX
 count=13
 12.baseType=DIRECTORY
 4.baseType=DIRECTORY

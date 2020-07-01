@@ -1,4 +1,4 @@
-#Wed Jun 17 16:21:00 CEST 2020
-base.0=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\r8\\release\\1
+#Thu Jun 18 11:28:10 CEST 2020
+base.0=C\:\\Users\\calle\\Desktop\\Picture\\build\\app\\intermediates\\transforms\\r8\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex

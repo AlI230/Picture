@@ -29,10 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:591438011817:ios:5eb08f4eab092ce230f8b8</string>
+	<string>1:591438011817:ios:a38c9bb7d32eb6af30f8b8</string>
 	<key>DATABASE_URL</key>
 	<string>https://picture-b4cab.firebaseio.com</string>
-	<key>ADMOB_APP_ID</key>
-	<string>ca-app-pub-6230550676129113~5980060850</string>
 </dict>
 </plist>

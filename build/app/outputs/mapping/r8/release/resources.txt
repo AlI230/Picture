@@ -145,6 +145,15 @@ Referenced Strings:
   3
   3.0
   3.1.6
+  3001
+  3002
+  3003
+  3004
+  3005
+  3006
+  3007
+  3008
+  3009
   300x250_as
   3010
   3011
@@ -1120,6 +1129,7 @@ Referenced Strings:
   LoadTask
   Loader
   Loader:ExtractorMediaPeriod
+  LoaderManager
   Loaders:
   LocalBroadcastManager
   LocalStore
@@ -1409,6 +1419,7 @@ Referenced Strings:
   RECEIVED
   RECORD_EVENTS
   RECOVER_EMAIL
+  RECV
   RED
   REDIRECT_LOOP
   REFERENCE_VALUE
@@ -2242,7 +2253,6 @@ Referenced Strings:
   allocateInstance
   allocation_id
   allow
-  allowFreeFormInput
   allowOffscreen
   allowOrientationChange
   allow_custom_click_gesture
@@ -2252,7 +2262,6 @@ Referenced Strings:
   allow_pub_rendered_attribution
   allow_pub_rendering
   allow_remote_dynamite
-  allowedDataTypes
   allowed_headers
   already_active
   alt
@@ -2539,11 +2548,11 @@ Referenced Strings:
   bytesLoaded
   bytesTransferred
   c
-  c.b.b.Ia
-  c.b.b.cc
+  c.b.b.Ja
+  c.b.b.dc
   c.b.c.j
   c.b.c.l
-  c.b.g.c$a
+  c.b.g.c
   c608
   c_pcbg
   c_phbg
@@ -2595,7 +2604,6 @@ Referenced Strings:
   childDirected
   childName
   children_to_process
-  choices
   circles
   cl
   claims
@@ -4649,6 +4657,7 @@ Referenced Strings:
   obfuscatedIdentifier
   objectFieldOffset
   obscureText
+  observe
   observer
   offline_signal_contents
   offline_signal_statistics
@@ -5007,7 +5016,6 @@ Referenced Strings:
   responses
   restricted_profile
   result
-  resultKey
   resumable
   resume
   resume_error
@@ -5276,7 +5284,6 @@ Referenced Strings:
   storeSetting
   stpp
   stream
-  streamClosed
   streamTracerFactories
   streamTracerFactory
   string
@@ -6099,7 +6106,6 @@ Referenced Strings:
   μs
 Marking string:firebase_database_url:2131296275 used because its prefix matches string pool constant firebase_
 Marking id:left:2131034180 used because its prefix matches string pool constant left
-Marking declare-styleable:AdsAttrs:-1 used because its prefix matches string pool constant Ads
 Marking styleable:AdsAttrs:-1 used because its prefix matches string pool constant Ads
 Marking id:top:2131034206 used because its prefix matches string pool constant top
 Marking color:common_google_signin_btn_text_dark:2130837508 used because its prefix matches string pool constant com
@@ -6643,7 +6649,6 @@ attr:adSize:2130771968,
    string:s7:2131296288,
    string:status_bar_notification_info_overflow:2131296289,
    style:LaunchTheme:2131361792,
-   declare-styleable:AdsAttrs:-1,
    styleable:AdsAttrs:-1,
    xml:flutter_image_picker_file_paths:2131492864,
    attr:android_color:-1,
@@ -6667,4 +6672,4 @@ attr:adSize:2130771968,
    attr:android_endY:-1,
    attr:android_tileMode:-1,
    attr:android_offset:-1
-Resource shrinking did not work (grew from 286922 to 286932); using original instead
+Resource shrinking did not work (grew from 286922 to 286930); using original instead
